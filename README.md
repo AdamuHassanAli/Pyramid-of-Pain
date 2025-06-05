@@ -8,8 +8,8 @@ Levels covered in the lab:
 <li><b>Hash Values (Trivial)</b> – Identifying file-based malware signatures</li>
 <li><b>IP Address (Easy)</b> – Detecting adversary infrastructure</li>
 <li><b>Domain Names (Simple)</b> – Tracing phishing and command & control domains</li>
-<li><b>Host Artifacts (Annoying)</b> – Uncovering system changes and unusual traffic</li>
-<li><b>Tools</b> – Recognizing attacker frameworks like Cobalt Strike</li>
+<li><b>Network & Host Artifacts (Annoying)</b> – Uncovering system changes and unusual traffic</li>
+<li><b>Tools (Challenging)</b> – Recognizing attacker frameworks like Cobalt Strike</li>
 <li><b>Tactics, Techniques, and Procedures (TTPs)</b> – Understanding adversary methodology through the MITRE ATT&CK framework</li>
 
 <h2>What I Learned:</h2>
