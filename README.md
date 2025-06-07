@@ -13,6 +13,7 @@ Levels covered in the lab:
 <li><b>Tactics, Techniques, and Procedures (TTPs)</b> – Understanding adversary methodology through the MITRE ATT&CK framework</li>
 
 <h2>What I Learned:</h2>
+
 <li>How to identify and prioritize IOCs based on adversary pain level</li>
 <li>How to analyze threat behaviors using network and host forensic data</li>
 <li>The strategic advantage of targeting higher-order indicators (TTPs, Tools)</li>
@@ -27,12 +28,14 @@ Levels covered in the lab:
 <li>Foundational threat hunting and blue teaming techniques</li>
 
 ## Practical Scenario
-<b>Platform:</b> TryHackMe | <b>Type:v interactive lab | <b>Focus:/b> IOC Mapping, Pyramid of Pain Application
 
-## Summary:
+<b>Platform:</b> TryHackMe | <b>Type:v interactive lab | <b>Focus:</b> IOC Mapping, Pyramid of Pain Application
+
+## Summary
 I completed a practical challenge by deploying a static site that required mapping real-world attacker descriptions to the correct tiers of the Pyramid of Pain. Correct classification revealed a flag, confirming accurate understanding.
 
 ## What I Did:
+
 Mapped each scenario to the correct IOC level:
 
 - <b>Hash Values</b> – "These signatures can be used to attribute payloads and artefacts to an actor."
