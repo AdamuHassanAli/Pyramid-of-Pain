@@ -29,24 +29,38 @@ Levels covered in the lab:
 
 ## Practical Scenario
 
-<b>Platform:</b> TryHackMe | <b>Type:v interactive lab | <b>Focus:</b> IOC Mapping, Pyramid of Pain Application
+<b>Platform:</b> TryHackMe | <b>Type: interactive lab | <b>Focus:</b> IOC Mapping, Pyramid of Pain Application
 
 ## Summary
 I completed a practical challenge by deploying a static site that required mapping real-world attacker descriptions to the correct tiers of the Pyramid of Pain. Correct classification revealed a flag, confirming accurate understanding.
 
 ## What I Did:
-
-Mapped each scenario to the correct IOC level:
+I Mapped each scenario to the correct IOC level:
 
 - <b>Hash Values</b> – "These signatures can be used to attribute payloads and artefacts to an actor."
-- </b>IP Addresses</b> – "These addresses can be used to identify the infrastructure an attacker is using for their campaign."
+- <b>IP Addresses</b> – "These addresses can be used to identify the infrastructure an attacker is using for their campaign."
 - <b>Domain Names</b> – "An attacker has purchased this and used it in a typo-squatting campaign."
 - <b>Network/Host Artifacts</b> – "These artefacts can present themselves as C2 traffic for example."
 - <b>Tools</b> – "The attacker has utilised these to accomplish their objective."
-- </b>Tactics, Techniques, and Procedures (TTPs)</b> – "The attackers plans and objectives."
+- <b>Tactics, Techniques, and Procedures (TTPs)</b> – "The attackers plans and objectives."
+  </br>
+  </br>
 
-
-
-
-<h2>Outcome:</h2>
+<p align="center">
+This Image is required mapping real-world attacker descriptions to the correct tiers of the <b>Pyramid of Pain:</b> <br/>
+<img src="https://github.com/AdamuHassanAli/Pyramid-of-Pain/blob/main/Images/001.jpeg?raw=true"/>
+<br/>
+<br/>
+<p align="center">
+I mapped the correct real-world attackers descriptions the tiers of the <b>Pyramid of Pain:</b> <br/>
+<img src="https://github.com/AdamuHassanAli/Pyramid-of-Pain/blob/main/Images/Pyramid%20of%20pain%20Activiry.jpeg?raw=true"/>
+<br/>
+<br/>
+<p align="center">
+Here is the Flag I Catched After succssfuly Mapped<b>Pyramid of Pain:</b> <br/>
+<img src="https://github.com/AdamuHassanAli/Pyramid-of-Pain/blob/main/Images/Pyramid%20of%20pain%20Catched%20the%20flag.jpeg?raw=true"/>
+<br/>
+<br/>
+  
+## Outcome:
 This lab enhanced my ability to think like a defender by focusing not just on detecting attacks, but on maximizing impact to adversaries. I now understand how to apply the Pyramid of Pain model to build more resilient detection strategies that disrupt adversary operations at a behavioral level.
