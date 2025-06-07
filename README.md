@@ -5,9 +5,9 @@ This lab explored the <b>Pyramid of Pain</b> threat intelligence model developed
 
 Levels covered in the lab:
 
-<li><b>Hash Values (Trivial)</b> – Identifying file-based malware signatures</li>
-<li><b>IP Address (Easy)</b> – Detecting adversary infrastructure</li>
-<li><b>Domain Names (Simple)</b> – Tracing phishing and command & control domains</li>
+<li><b>Hash Values (Trivial)</b> – Unique file identifiers; easily changed by attackers</li>
+<li><b>IP Address (Easy)</b> – Detecting adversary or Infrastructure locations; quick to alter</li>
+<li><b>Domain Names (Simple)</b> – URLs used in attacks; moderately difficult to rotate</li>
 <li><b>Network & Host Artifacts (Annoying)</b> – Uncovering system changes and unusual traffic</li>
 <li><b>Tools (Challenging)</b> – Recognizing attacker frameworks like Cobalt Strike</li>
 <li><b>Tactics, Techniques, and Procedures (TTPs)</b> – Understanding adversary methodology through the MITRE ATT&CK framework</li>
@@ -25,6 +25,25 @@ Levels covered in the lab:
 <li>Defensive prioritization based on adversary cost</li>
 <li>Use of MITRE ATT&CK for mapping TTPs</li>
 <li>Foundational threat hunting and blue teaming techniques</li>
+
+## Practical Scenario
+<b>Platform:</b> TryHackMe | <b>Type:v interactive lab | <b>Focus:/b> IOC Mapping, Pyramid of Pain Application
+
+## Summary:
+I completed a practical challenge by deploying a static site that required mapping real-world attacker descriptions to the correct tiers of the Pyramid of Pain. Correct classification revealed a flag, confirming accurate understanding.
+
+## What I Did:
+Mapped each scenario to the correct IOC level:
+
+- <b>Hash Values</b> – "These signatures can be used to attribute payloads and artefacts to an actor."
+- </b>IP Addresses</b> – "These addresses can be used to identify the infrastructure an attacker is using for their campaign."
+- <b>Domain Names</b> – "An attacker has purchased this and used it in a typo-squatting campaign."
+- <b>Network/Host Artifacts</b> – "These artefacts can present themselves as C2 traffic for example."
+- <b>Tools</b> – "The attacker has utilised these to accomplish their objective."
+- </b>Tactics, Techniques, and Procedures (TTPs)</b> – "The attackers plans and objectives."
+
+
+
 
 <h2>Outcome:</h2>
 This lab enhanced my ability to think like a defender by focusing not just on detecting attacks, but on maximizing impact to adversaries. I now understand how to apply the Pyramid of Pain model to build more resilient detection strategies that disrupt adversary operations at a behavioral level.
